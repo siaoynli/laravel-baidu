@@ -1,0 +1,17 @@
+{
+    "name": "siaoynli/laravel-baidu",
+    "description": "baidu sdk package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "siaoynli",
+            "email": "siaoynli@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Siaoynli\\Baidu\\": "src/"
+        }
+    }
+}
