@@ -34,4 +34,4 @@ BAIDU_SECRET_KEY=
  $client =  BaiduSdk::Client("AipOcr");
 ```
 
-其他查看百度官方文档
+使用方法查看百度官方文档
