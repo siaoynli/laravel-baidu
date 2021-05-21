@@ -10,6 +10,12 @@ this package for laravel
 composer require siaoynli/laravel-baidu
 ```
 
+app.php
+
+```
+Siaoynli\Baidu\BaiduServiceProvider::class,
+```
+
 ```
 php artisan vendor:publish --provider="Siaoynli\Baidu\BaiduServiceProvider"
 ```

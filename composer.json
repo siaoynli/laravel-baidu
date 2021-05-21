@@ -8,7 +8,9 @@
             "email": "siaoynli@126.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.4"
+    },
     "autoload": {
         "psr-4": {
             "Siaoynli\\Baidu\\": "src/"

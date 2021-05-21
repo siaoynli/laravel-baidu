@@ -91,7 +91,7 @@ class AipHttpClient{
         $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
         if($code === 0){
-            throw new Exception(curl_error($ch));
+            throw new \Exception(curl_error($ch));
         }
 
         curl_close($ch);
@@ -174,7 +174,7 @@ class AipHttpClient{
         $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
         if($code === 0){
-            throw new Exception(curl_error($ch));
+            throw new \Exception(curl_error($ch));
         }
 
         curl_close($ch);
